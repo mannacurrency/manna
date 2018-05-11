@@ -1,0 +1,55 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="grantcoin">grantcoin.png</file>
+        <file alias="address-book">../icons/address-book.png</file>
+        <file alias="quit">../icons/quit.png</file>
+        <file alias="send">../icons/send.png</file>
+        <file alias="toolbar">../icons/toolbar.png</file>
+        <file alias="connect_0">../icons/connect0_16.png</file>
+        <file alias="connect_1">../icons/connect1_16.png</file>
+        <file alias="connect_2">../icons/connect2_16.png</file>
+        <file alias="connect_3">../icons/connect3_16.png</file>
+        <file alias="connect_4">../icons/connect4_16.png</file>
+        <file alias="transaction_0">../icons/transaction0.png</file>
+        <file alias="transaction_confirmed">../icons/transaction2.png</file>
+        <file alias="transaction_1">../icons/clock1.png</file>
+        <file alias="transaction_2">../icons/clock2.png</file>
+        <file alias="transaction_3">../icons/clock3.png</file>
+        <file alias="transaction_4">../icons/clock4.png</file>
+        <file alias="transaction_5">../icons/clock5.png</file>
+        <file alias="options">../icons/configure.png</file>
+        <file alias="receiving_addresses">../icons/receive.png</file>
+        <file alias="editpaste">../icons/editpaste.png</file>
+        <file alias="editcopy">../icons/editcopy.png</file>
+        <file alias="add">../icons/add.png</file>
+        <file alias="bitcoin_testnet">../icons/bitcoin_testnet.png</file>
+        <file alias="toolbar_testnet">grantcoin_testnet.png</file>
+        <file alias="edit">../icons/edit.png</file>
+        <file alias="history">../icons/history.png</file>
+        <file alias="overview">../icons/overview.png</file>
+        <file alias="export">../icons/export.png</file>
+        <file alias="synced">../icons/synced.png</file>
+        <file alias="remove">../icons/remove.png</file>
+        <file alias="tx_mined">../icons/tx_mined.png</file>
+        <file alias="tx_input">../icons/tx_input.png</file>
+        <file alias="tx_output">../icons/tx_output.png</file>
+        <file alias="tx_inout">../icons/tx_inout.png</file>
+        <file alias="lock_closed">../icons/lock_closed.png</file>
+        <file alias="lock_open">../icons/lock_open.png</file>
+        <file alias="key">../icons/key.png</file>
+        <file alias="filesave">../icons/filesave.png</file>
+        <file alias="qrcode">../icons/qrcode.png</file>
+        <file alias="debugwindow">../icons/debugwindow.png</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file alias="about">../images/about.png</file>
+        <file alias="splash">splash.png</file>
+        <file alias="splash_testnet">../images/splash_testnet.png</file>
+    </qresource>
+    <qresource prefix="/movies">
+        <file alias="update_spinner">../movies/update_spinner.mng</file>
+    </qresource>
+    <qresource prefix="/translations">
+        <file alias="en">../../locale/codecoin_en.ts</file>
+    </qresource>
+</RCC>

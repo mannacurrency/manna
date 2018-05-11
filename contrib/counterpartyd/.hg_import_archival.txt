@@ -1,0 +1,9 @@
+NOTE: this is the .hg_archival.tx resulting from running
+'hg archive ../catcoin/counterpartyd' in an hg clone of upstream counterpartyd
+
+repo: 14995d2c94ec37c6035357190f3b37c164286286
+node: f9fd85df11c0716957f41d98bdb37dcac2f7605a
+branch: default
+latesttag: null
+latesttagdistance: 679
+

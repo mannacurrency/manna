@@ -1,0 +1,8 @@
+NOTE: this is the .hg_archival.tx resulting from running
+'hg archive ../catcoin/p2pool' in an hg clone of upstream p2pool
+
+repo: 1b7aff6465a993930d8e5584fddbba10d2f351d9
+node: 74619bb38585486313b49ec1dd69e2d65f1f8166
+branch: default
+latesttag: null
+latesttagdistance: 1516

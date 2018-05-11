@@ -1,0 +1,63 @@
+Copyright (c) 2015 Grantcoin Developers
+Copyright (c) 2012-2013 PPCoin Developers
+Copyright (c) 2009-2012 *coin Developers
+where * = (Bit, Lite, PP, Peerunity, Blu, Cat, Solar, URO, ...)
+Previously distributed under the MIT/X11 software license, see the
+file COPYING or http://www.opensource.org/licenses/mit-license.php.
+Copyright (c) 2014-2015 Troy Benjegerdes, under AGPLv3
+Distributed under the Affero GNU General public license version 3
+file COPYING or http://www.gnu.org/licenses/agpl-3.0.html
+
+
+Mac OS X bitcoind build instructions
+Laszlo Hanyecz <solar@heliacal.net>
+Douglas Huff <dhuff@jrbobdobbs.org>
+
+Modified for PPCoin by Jeff Larkin <jefflarkin@gmail.com>
+Modified for Peerunity by Ben Rossi <ben@rossinet.com>
+
+
+See readme-qt.rst for instructions on building Grantcoin QT, the
+graphical user interface.
+
+Tested on 10.5 and 10.6 intel.  GRT is not supported because it's big-endian.
+
+All of the commands should be executed in Terminal.app.. it's in
+/Applications/Utilities
+
+You need to install XCode with all the options checked so that the compiler and
+everything is available in /usr not just /Developer I think it comes on the DVD
+but you can get the current version from http://developer.apple.com
+
+
+1.  Clone the github tree to get the source code:
+
+git clone git@github.com:grantcoin/grantcoin.git grantcoin
+
+2.  Download and install MacPorts from http://www.macports.org/
+
+2a. (for maximum compatibility with 32-bit installs)
+    Edit /opt/local/etc/macports/macports.conf and uncomment "build_arch i386"
+
+3.  Install dependencies from MacPorts
+
+sudo port install boost db48 openssl miniupnpc
+
+Optionally install qrencode (and set USE_QRCODE=1):
+sudo port install qrencode
+Optionally install qrencode (and set USE_QRCODE=1):
+sudo port install qrencode
+
+4.  Now you should be able to build bitcoind:
+
+cd grantcoin/src
+make -f makefile.osx
+# To build 64-bit binaies:
+make -f makefile.osx RELEASE=true 64BIT=true
+
+Run:
+  ./grantcoind --help  # for a list of command-line options.
+Run
+  ./grantcoind -daemon # to start the bitcoin daemon.
+Run
+  ./grantcoind help # When the daemon is running, to get a list of RPC commands
